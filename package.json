@@ -29,7 +29,9 @@
   "devDependencies": {
     "@types/ncp": "^2.0.2",
     "@types/node": "^12.11.7",
-    "@types/rimraf": "^2.0.3"
+    "@types/rimraf": "^2.0.3",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   },
   "dependencies": {
     "ncp": "^2.0.0",

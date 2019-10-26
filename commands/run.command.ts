@@ -34,9 +34,7 @@ export default async function(): Promise<void> {
       }
     },
     // Filter "package-lock.json" to avoid errors during insatllation/building
-    filter: (filename: string): boolean => {
-      return !filename.includes('package-lock');
-    },
+    filter: (filename: string): boolean => !filename.includes('package-lock'),
     errs: process.stderr,
     stopOnErr: true
   }, (err: Error): void => {

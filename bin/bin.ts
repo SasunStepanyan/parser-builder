@@ -13,7 +13,6 @@ if (!args[0]) {
   try {
     (await import(`${COMMANDS_PATH}${args[0]}.command.js`)).default(args[1]);
   } catch (err) {
-    console.log(err);
     console.error('Unknown command');
   }
 })();
