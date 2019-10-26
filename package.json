@@ -1,0 +1,23 @@
+{
+  "name": "parser-builder",
+  "version": "0.0.1",
+  "description": "Parser builder",
+  "main": "./bin/bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SasunStepanyan/parser-builder.git"
+  },
+  "keywords": [
+    "parser",
+    "builder"
+  ],
+  "author": "SasunStepanyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SasunStepanyan/parser-builder/issues"
+  },
+  "homepage": "https://github.com/SasunStepanyan/parser-builder#readme"
+}
