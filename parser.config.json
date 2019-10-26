@@ -1,0 +1,5 @@
+  {
+    "project": "test",
+    "prefix": "selenium",
+    "build-command": "build:lve"
+  }
